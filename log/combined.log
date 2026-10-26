@@ -1,0 +1,68 @@
+{"level":"info","message":"Reverse Proxy running on port 4000","timestamp":"2025-06-04T08:11:32.161Z"}
+{"level":"info","message":"Data Node 1 running on port 5001","nodeId":"1","port":5001,"timestamp":"2025-06-04T08:11:32.838Z"}
+{"level":"info","message":"Data Node 2 running on port 5002","nodeId":"2","port":5002,"timestamp":"2025-06-04T08:11:32.863Z"}
+{"level":"info","message":"Data Node 0 running on port 5000","nodeId":"0","port":5000,"timestamp":"2025-06-04T08:11:32.865Z"}
+{"level":"info","message":"Registered Data Node 1 on port 5001","timestamp":"2025-06-04T08:11:32.901Z"}
+{"level":"info","message":"Data Node 1 registered with reverse proxy","nodeId":"1","port":5001,"timestamp":"2025-06-04T08:11:32.928Z"}
+{"level":"info","message":"Registered Data Node 2 on port 5002","timestamp":"2025-06-04T08:11:32.935Z"}
+{"level":"info","message":"Registered Data Node 0 on port 5000","timestamp":"2025-06-04T08:11:32.944Z"}
+{"level":"info","message":"Data Node 2 registered with reverse proxy","nodeId":"2","port":5002,"timestamp":"2025-06-04T08:11:32.949Z"}
+{"level":"info","message":"Data Node 0 registered with reverse proxy","nodeId":"0","port":5000,"timestamp":"2025-06-04T08:11:32.960Z"}
+{"level":"info","message":"ServerDB 2 running on port 3002 with Raft state follower","timestamp":"2025-06-04T08:11:33.743Z"}
+{"level":"info","message":"ServerDB 2 running on port 3102 with Raft state follower","timestamp":"2025-06-04T08:11:33.762Z"}
+{"level":"info","message":"ServerDB 1 running on port 3101 with Raft state follower","timestamp":"2025-06-04T08:11:33.763Z"}
+{"level":"info","message":"ServerDB 0 running on port 3100 with Raft state follower","timestamp":"2025-06-04T08:11:33.765Z"}
+{"level":"info","message":"ServerDB 0 running on port 3200 with Raft state follower","timestamp":"2025-06-04T08:11:33.771Z"}
+{"level":"info","message":"ServerDB 0 running on port 3000 with Raft state follower","timestamp":"2025-06-04T08:11:33.812Z"}
+{"level":"info","message":"ServerDB 1 running on port 3001 with Raft state follower","timestamp":"2025-06-04T08:11:33.811Z"}
+{"level":"info","message":"ServerDB 1 running on port 3201 with Raft state follower","timestamp":"2025-06-04T08:11:33.813Z"}
+{"level":"info","message":"ServerDB 2 running on port 3202 with Raft state follower","timestamp":"2025-06-04T08:11:33.830Z"}
+{"level":"info","message":"Leader changed: Server 3100 is leader at term 291","timestamp":"2025-06-04T08:11:34.067Z"}
+{"level":"info","message":"Leader changed: Server 3200 is leader at term 290","timestamp":"2025-06-04T08:11:34.219Z"}
+{"level":"info","message":"Leader changed: Server 3002 is leader at term 287","timestamp":"2025-06-04T08:11:34.335Z"}
+{"leaderPort":3100,"level":"info","message":"Leader found","nodeId":"1","timestamp":"2025-06-04T08:11:34.927Z"}
+{"level":"info","message":"Leader ServerDB found on port 3100, switching data node...","timestamp":"2025-06-04T08:11:34.927Z"}
+{"level":"info","message":"Data Node 1 running on port 3100","nodeId":"1","port":3100,"timestamp":"2025-06-04T08:11:34.930Z"}
+{"leaderPort":3002,"level":"info","message":"Leader found","nodeId":"0","timestamp":"2025-06-04T08:11:34.979Z"}
+{"level":"info","message":"Leader ServerDB found on port 3002, switching data node...","timestamp":"2025-06-04T08:11:34.980Z"}
+{"level":"info","message":"Data Node 0 running on port 3002","nodeId":"0","port":3002,"timestamp":"2025-06-04T08:11:34.982Z"}
+{"leaderPort":3200,"level":"info","message":"Leader found","nodeId":"2","timestamp":"2025-06-04T08:11:34.992Z"}
+{"level":"info","message":"Leader ServerDB found on port 3200, switching data node...","timestamp":"2025-06-04T08:11:34.993Z"}
+{"level":"info","message":"Data Node 2 running on port 3200","nodeId":"2","port":3200,"timestamp":"2025-06-04T08:11:34.995Z"}
+{"level":"info","message":"Leader changed: Server 3100 is leader at term 293","timestamp":"2025-06-04T08:11:35.280Z"}
+{"level":"info","message":"Leader changed: Server 3002 is leader at term 289","timestamp":"2025-06-04T08:11:35.636Z"}
+{"level":"error","message":"SyntaxError: Unterminated string in JSON at position 13 (line 1 column 14)\n    at JSON.parse (<anonymous>)\n    at parse (/home/anon/Project/Project-02/beeDB/src/RP/node_modules/body-parser/lib/types/json.js:77:19)\n    at /home/anon/Project/Project-02/beeDB/src/RP/node_modules/body-parser/lib/read.js:123:18\n    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)\n    at invokeCallback (/home/anon/Project/Project-02/beeDB/src/RP/node_modules/raw-body/index.js:238:16)\n    at done (/home/anon/Project/Project-02/beeDB/src/RP/node_modules/raw-body/index.js:227:7)\n    at IncomingMessage.onEnd (/home/anon/Project/Project-02/beeDB/src/RP/node_modules/raw-body/index.js:287:7)\n    at IncomingMessage.emit (node:events:518:28)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)","timestamp":"2025-06-04T08:14:52.938Z"}
+{"key":"123123123","level":"info","message":"2PC commit completed","timestamp":"2025-06-04T08:15:21.155Z","value":{"a":10,"b":100,"c":"mil"}}
+{"key":"123123123","level":"info","message":"2PC commit completed","timestamp":"2025-06-04T08:15:21.155Z","value":{"a":10,"b":100,"c":"mil"}}
+{"key":"123123123","level":"info","message":"Create committed successfully","timestamp":"2025-06-04T08:15:21.163Z","value":{"a":10,"b":100,"c":"mil"}}
+{"level":"info","message":"/db/c created key=123123123 (hash: f5bb0c8de146c67b44babbf4e6584cc0) at nodeIndex=2, leaderPort=3200","timestamp":"2025-06-04T08:15:21.172Z"}
+{"key":"me@gmail.com","level":"info","message":"2PC commit completed","timestamp":"2025-06-04T08:20:47.679Z","value":{"a":10,"b":100,"c":"mil"}}
+{"key":"me@gmail.com","level":"info","message":"2PC commit completed","timestamp":"2025-06-04T08:20:47.679Z","value":{"a":10,"b":100,"c":"mil"}}
+{"key":"me@gmail.com","level":"info","message":"Create committed successfully","timestamp":"2025-06-04T08:20:47.690Z","value":{"a":10,"b":100,"c":"mil"}}
+{"level":"info","message":"/db/c created key=me@gmail.com (hash: 525ceb06bc8862932d853a033411e3b7) at nodeIndex=1, leaderPort=3100","timestamp":"2025-06-04T08:20:47.699Z"}
+{"key":"nc:100100100,comp:bpi","level":"info","message":"2PC commit completed","timestamp":"2025-06-04T08:30:35.487Z","value":{"a":10,"b":100,"c":"mil"}}
+{"key":"nc:100100100,comp:bpi","level":"info","message":"2PC commit completed","timestamp":"2025-06-04T08:30:35.487Z","value":{"a":10,"b":100,"c":"mil"}}
+{"key":"nc:100100100,comp:bpi","level":"info","message":"Create committed successfully","timestamp":"2025-06-04T08:30:35.495Z","value":{"a":10,"b":100,"c":"mil"}}
+{"level":"info","message":"/db/c created key=nc:100100100,comp:bpi (hash: e2ac53c5a3ed21132f09582c0d0e7440) at nodeIndex=2, leaderPort=3200","timestamp":"2025-06-04T08:30:35.502Z"}
+{"key":"nc:100100100,comp:bpi","level":"warn","message":"Create failed: Key already exists","timestamp":"2025-06-04T08:35:39.597Z"}
+{"level":"error","message":"/db/c error for key=nc:100100100,comp:bpi (hash: e2ac53c5a3ed21132f09582c0d0e7440): HTTP error! status: 409","timestamp":"2025-06-04T08:35:39.605Z"}
+{"key":"nc:100100100,comp:bpi","level":"info","message":"2PC commit-delete completed","timestamp":"2025-06-04T08:42:07.588Z"}
+{"key":"nc:100100100,comp:bpi","level":"info","message":"2PC commit-delete completed","timestamp":"2025-06-04T08:42:07.588Z"}
+{"key":"nc:100100100,comp:bpi","level":"info","message":"Delete committed successfully","timestamp":"2025-06-04T08:42:07.595Z"}
+{"level":"info","message":"/db/d deleted key=nc:100100100,comp:bpi (hash: e2ac53c5a3ed21132f09582c0d0e7440) at nodeIndex=2, leaderPort=3200","timestamp":"2025-06-04T08:42:07.602Z"}
+{"key":"123123123","level":"info","message":"Read key success","nodeId":2,"serverPort":"3200","timestamp":"2025-06-04T08:50:55.559Z"}
+{"key":"123123123","level":"info","message":"2PC commit completed","timestamp":"2025-06-04T08:50:55.581Z","value":{"0":"{","1":"\"","10":"\"","11":":","12":"1","13":"0","14":"0","15":",","16":"\"","17":"c","18":"\"","19":":","2":"a","20":"\"","21":"m","22":"i","23":"l","24":"\"","25":"}","3":"\"","4":":","5":"1","6":"0","7":",","8":"\"","9":"b","a":11,"b":100,"c":"mil"}}
+{"key":"123123123","level":"info","message":"2PC commit completed","timestamp":"2025-06-04T08:50:55.581Z","value":{"0":"{","1":"\"","10":"\"","11":":","12":"1","13":"0","14":"0","15":",","16":"\"","17":"c","18":"\"","19":":","2":"a","20":"\"","21":"m","22":"i","23":"l","24":"\"","25":"}","3":"\"","4":":","5":"1","6":"0","7":",","8":"\"","9":"b","a":11,"b":100,"c":"mil"}}
+{"key":"123123123","level":"info","message":"Update committed successfully","timestamp":"2025-06-04T08:50:55.588Z","value":{"0":"{","1":"\"","10":"\"","11":":","12":"1","13":"0","14":"0","15":",","16":"\"","17":"c","18":"\"","19":":","2":"a","20":"\"","21":"m","22":"i","23":"l","24":"\"","25":"}","3":"\"","4":":","5":"1","6":"0","7":",","8":"\"","9":"b","a":11,"b":100,"c":"mil"}}
+{"level":"info","message":"/db/u updated key=123123123 (hash: f5bb0c8de146c67b44babbf4e6584cc0) at nodeIndex=2, leaderPort=3200","timestamp":"2025-06-04T08:50:55.591Z"}
+{"level":"info","message":"Shutdown signal received. Exiting...","timestamp":"2025-06-04T09:00:05.983Z"}
+{"exitCode":0,"level":"error","message":"ServerDB 3101 exited with code 0","serverPort":3101,"timestamp":"2025-06-04T09:00:06.004Z"}
+{"level":"error","message":"Data Node 1 exited with code 1","timestamp":"2025-06-04T09:00:06.016Z"}
+{"level":"warn","message":"Status check failed for serverdb port 3101: request to http://localhost:3101/status failed, reason: ","timestamp":"2025-06-04T09:01:05.186Z"}
+{"level":"info","message":"Shutdown signal received. Exiting...","timestamp":"2025-06-04T09:02:18.274Z"}
+{"exitCode":0,"level":"error","message":"ServerDB 3002 exited with code 0","serverPort":3002,"timestamp":"2025-06-04T09:02:18.302Z"}
+{"level":"error","message":"Data Node 0 exited with code 1","timestamp":"2025-06-04T09:02:18.313Z"}
+{"level":"info","message":"Leader changed: Server 3000 is leader at term 291","timestamp":"2025-06-04T09:02:18.787Z"}
+{"level":"warn","message":"Status check failed for serverdb port 3002: request to http://localhost:3002/status failed, reason: ","timestamp":"2025-06-04T09:02:22.593Z"}
+{"level":"warn","message":"Status check failed for serverdb port 3101: request to http://localhost:3101/status failed, reason: ","timestamp":"2025-06-04T09:02:22.600Z"}
+{"level":"info","message":"Data Node 2: Shutting down...","timestamp":"2025-06-04T09:15:11.762Z"}

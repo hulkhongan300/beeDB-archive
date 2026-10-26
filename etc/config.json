@@ -1,0 +1,39 @@
+{
+  "db_data_directory": "../DB-data",
+  "server": {
+    "host": "localhost",
+    "port": 4000
+  },
+  "nodes": [
+    {
+      "id": 0,
+      "name": "node0",
+      "master_id": 0,
+      "servers": [
+        { "id": 0, "host": "localhost", "port": 3000, "name": "n0s0" },
+        { "id": 1, "host": "localhost", "port": 3001, "name": "n0s1" },
+        { "id": 2, "host": "localhost", "port": 3002, "name": "n0s2" }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "node1",
+      "master_id": 0,
+      "servers": [
+        { "id": 0, "host": "localhost", "port": 3100, "name": "n1s0" },
+        { "id": 1, "host": "localhost", "port": 3101, "name": "n1s1" },
+        { "id": 2, "host": "localhost", "port": 3102, "name": "n1s2" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "node2",
+      "master_id": 0,
+      "servers": [
+        { "id": 0, "host": "localhost", "port": 3200, "name": "n2s0" },
+        { "id": 1, "host": "localhost", "port": 3201, "name": "n2s1" },
+        { "id": 2, "host": "localhost", "port": 3202, "name": "n2s2" }
+      ]
+    }
+  ]
+}
