@@ -66,3 +66,70 @@
 {"level":"warn","message":"Status check failed for serverdb port 3002: request to http://localhost:3002/status failed, reason: ","timestamp":"2025-06-04T09:02:22.593Z"}
 {"level":"warn","message":"Status check failed for serverdb port 3101: request to http://localhost:3101/status failed, reason: ","timestamp":"2025-06-04T09:02:22.600Z"}
 {"level":"info","message":"Data Node 2: Shutting down...","timestamp":"2025-06-04T09:15:11.762Z"}
+{"level":"info","message":"Reverse Proxy running on port 4000","timestamp":"2026-10-26T17:29:24.965Z"}
+{"level":"info","message":"Data Node 0 running on port 5000","nodeId":"0","port":5000,"timestamp":"2026-10-26T17:29:25.119Z"}
+{"level":"info","message":"Data Node 2 running on port 5002","nodeId":"2","port":5002,"timestamp":"2026-10-26T17:29:25.123Z"}
+{"level":"info","message":"Data Node 1 running on port 5001","nodeId":"1","port":5001,"timestamp":"2026-10-26T17:29:25.124Z"}
+{"level":"info","message":"Registered Data Node 0 on port 5000","timestamp":"2026-10-26T17:29:25.153Z"}
+{"level":"info","message":"Registered Data Node 2 on port 5002","timestamp":"2026-10-26T17:29:25.164Z"}
+{"level":"info","message":"Data Node 0 registered with reverse proxy","nodeId":"0","port":5000,"timestamp":"2026-10-26T17:29:25.166Z"}
+{"level":"info","message":"Registered Data Node 1 on port 5001","timestamp":"2026-10-26T17:29:25.166Z"}
+{"level":"info","message":"Data Node 2 registered with reverse proxy","nodeId":"2","port":5002,"timestamp":"2026-10-26T17:29:25.170Z"}
+{"level":"info","message":"Data Node 1 registered with reverse proxy","nodeId":"1","port":5001,"timestamp":"2026-10-26T17:29:25.173Z"}
+{"level":"info","message":"ServerDB 2 running on port 3102 with Raft state follower","timestamp":"2026-10-26T17:29:25.346Z"}
+{"level":"info","message":"ServerDB 2 running on port 3002 with Raft state follower","timestamp":"2026-10-26T17:29:25.354Z"}
+{"level":"info","message":"ServerDB 2 running on port 3202 with Raft state follower","timestamp":"2026-10-26T17:29:25.357Z"}
+{"level":"info","message":"ServerDB 1 running on port 3001 with Raft state follower","timestamp":"2026-10-26T17:29:25.357Z"}
+{"level":"info","message":"ServerDB 1 running on port 3101 with Raft state follower","timestamp":"2026-10-26T17:29:25.358Z"}
+{"level":"info","message":"ServerDB 1 running on port 3201 with Raft state follower","timestamp":"2026-10-26T17:29:25.365Z"}
+{"level":"info","message":"ServerDB 0 running on port 3100 with Raft state follower","timestamp":"2026-10-26T17:29:25.364Z"}
+{"level":"info","message":"ServerDB 0 running on port 3000 with Raft state follower","timestamp":"2026-10-26T17:29:25.364Z"}
+{"level":"info","message":"ServerDB 0 running on port 3200 with Raft state follower","timestamp":"2026-10-26T17:29:25.380Z"}
+{"level":"info","message":"Leader changed: Server 3202 is leader at term 1","timestamp":"2026-10-26T17:29:25.542Z"}
+{"level":"info","message":"Leader changed: Server 3001 is leader at term 1","timestamp":"2026-10-26T17:29:25.580Z"}
+{"level":"info","message":"Leader changed: Server 3100 is leader at term 1","timestamp":"2026-10-26T17:29:25.595Z"}
+{"leaderPort":3001,"level":"info","message":"Leader found","nodeId":"0","timestamp":"2026-10-26T17:29:26.172Z"}
+{"level":"info","message":"Leader ServerDB found on port 3001, switching data node...","timestamp":"2026-10-26T17:29:26.172Z"}
+{"level":"info","message":"Data Node 0 running on port 3001","nodeId":"0","port":3001,"timestamp":"2026-10-26T17:29:26.173Z"}
+{"leaderPort":3202,"level":"info","message":"Leader found","nodeId":"2","timestamp":"2026-10-26T17:29:26.177Z"}
+{"level":"info","message":"Leader ServerDB found on port 3202, switching data node...","timestamp":"2026-10-26T17:29:26.178Z"}
+{"level":"info","message":"Data Node 2 running on port 3202","nodeId":"2","port":3202,"timestamp":"2026-10-26T17:29:26.178Z"}
+{"leaderPort":3100,"level":"info","message":"Leader found","nodeId":"1","timestamp":"2026-10-26T17:29:26.190Z"}
+{"level":"info","message":"Leader ServerDB found on port 3100, switching data node...","timestamp":"2026-10-26T17:29:26.190Z"}
+{"level":"info","message":"Data Node 1 running on port 3100","nodeId":"1","port":3100,"timestamp":"2026-10-26T17:29:26.191Z"}
+{"level":"info","message":"Shutdown requested. Cleaning up...","timestamp":"2026-10-26T17:30:00.222Z"}
+{"level":"info","message":"Data Node 1: Shutting down...","timestamp":"2026-10-26T17:30:00.223Z"}
+{"level":"info","message":"Data Node 0: Shutting down...","timestamp":"2026-10-26T17:30:00.223Z"}
+{"level":"info","message":"Data Node 2: Shutting down...","timestamp":"2026-10-26T17:30:00.223Z"}
+{"level":"info","message":"Reverse proxy shut down cleanly.","timestamp":"2026-10-26T17:30:00.236Z"}
+{"level":"info","message":"Reverse Proxy running on port 4000","timestamp":"2026-10-26T17:30:00.375Z"}
+{"level":"info","message":"Data Node 1 running on port 5001","nodeId":"1","port":5001,"timestamp":"2026-10-26T17:30:00.529Z"}
+{"level":"info","message":"Data Node 2 running on port 5002","nodeId":"2","port":5002,"timestamp":"2026-10-26T17:30:00.533Z"}
+{"level":"info","message":"Registered Data Node 1 on port 5001","timestamp":"2026-10-26T17:30:00.563Z"}
+{"level":"info","message":"Data Node 0 running on port 5000","nodeId":"0","port":5000,"timestamp":"2026-10-26T17:30:00.545Z"}
+{"level":"info","message":"Registered Data Node 2 on port 5002","timestamp":"2026-10-26T17:30:00.571Z"}
+{"level":"info","message":"Registered Data Node 0 on port 5000","timestamp":"2026-10-26T17:30:00.573Z"}
+{"level":"info","message":"Data Node 1 registered with reverse proxy","nodeId":"1","port":5001,"timestamp":"2026-10-26T17:30:00.575Z"}
+{"level":"info","message":"Data Node 2 registered with reverse proxy","nodeId":"2","port":5002,"timestamp":"2026-10-26T17:30:00.579Z"}
+{"level":"info","message":"Data Node 0 registered with reverse proxy","nodeId":"0","port":5000,"timestamp":"2026-10-26T17:30:00.585Z"}
+{"level":"info","message":"ServerDB 2 running on port 3202 with Raft state follower","timestamp":"2026-10-26T17:30:00.746Z"}
+{"level":"info","message":"ServerDB 2 running on port 3002 with Raft state follower","timestamp":"2026-10-26T17:30:00.765Z"}
+{"level":"info","message":"ServerDB 1 running on port 3201 with Raft state follower","timestamp":"2026-10-26T17:30:00.770Z"}
+{"level":"info","message":"ServerDB 1 running on port 3101 with Raft state follower","timestamp":"2026-10-26T17:30:00.771Z"}
+{"level":"info","message":"ServerDB 0 running on port 3200 with Raft state follower","timestamp":"2026-10-26T17:30:00.772Z"}
+{"level":"info","message":"ServerDB 0 running on port 3000 with Raft state follower","timestamp":"2026-10-26T17:30:00.780Z"}
+{"level":"info","message":"ServerDB 2 running on port 3102 with Raft state follower","timestamp":"2026-10-26T17:30:00.783Z"}
+{"level":"info","message":"ServerDB 1 running on port 3001 with Raft state follower","timestamp":"2026-10-26T17:30:00.784Z"}
+{"level":"info","message":"ServerDB 0 running on port 3100 with Raft state follower","timestamp":"2026-10-26T17:30:00.789Z"}
+{"level":"info","message":"Leader changed: Server 3202 is leader at term 1","timestamp":"2026-10-26T17:30:00.926Z"}
+{"level":"info","message":"Leader changed: Server 3101 is leader at term 1","timestamp":"2026-10-26T17:30:00.953Z"}
+{"level":"info","message":"Leader changed: Server 3002 is leader at term 1","timestamp":"2026-10-26T17:30:00.955Z"}
+{"leaderPort":3101,"level":"info","message":"Leader found","nodeId":"1","timestamp":"2026-10-26T17:30:01.580Z"}
+{"level":"info","message":"Leader ServerDB found on port 3101, switching data node...","timestamp":"2026-10-26T17:30:01.581Z"}
+{"level":"info","message":"Data Node 1 running on port 3101","nodeId":"1","port":3101,"timestamp":"2026-10-26T17:30:01.582Z"}
+{"leaderPort":3202,"level":"info","message":"Leader found","nodeId":"2","timestamp":"2026-10-26T17:30:01.598Z"}
+{"level":"info","message":"Leader ServerDB found on port 3202, switching data node...","timestamp":"2026-10-26T17:30:01.599Z"}
+{"level":"info","message":"Data Node 2 running on port 3202","nodeId":"2","port":3202,"timestamp":"2026-10-26T17:30:01.599Z"}
+{"leaderPort":3002,"level":"info","message":"Leader found","nodeId":"0","timestamp":"2026-10-26T17:30:01.605Z"}
+{"level":"info","message":"Leader ServerDB found on port 3002, switching data node...","timestamp":"2026-10-26T17:30:01.605Z"}
+{"level":"info","message":"Data Node 0 running on port 3002","nodeId":"0","port":3002,"timestamp":"2026-10-26T17:30:01.606Z"}
