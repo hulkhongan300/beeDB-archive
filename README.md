@@ -84,14 +84,6 @@ git clone https://github.com/your-org/beeDB.git
 cd beeDB
 ```
 
-### 3. Install module dependencies
-
-Use the built-in dependency checker to install all sub-module dependencies at once:
-
-```bash
-cd bin
-node beeDB.js check-deps
-```
 
 ---
 
