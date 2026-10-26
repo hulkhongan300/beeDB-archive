@@ -10,9 +10,9 @@
 
 <!-- Campos da capa sem valor no original: Curso | Ano letivo | Ano do Curso | Unidade Curricular | Nome do Docente -->
 
-- Afonso Calisto · 48096
-- Guilherme Russo · 47653
-- Duarte Ferreira · 47784
+- Afonso Calisto · 48096 https://github.com/hulkhongan300
+- Guilherme Russo · 47653 https://github.com/GuiRusso802
+- Duarte Ferreira · 47784 
 - Ronaldo Leal · 47564
 
 ---
